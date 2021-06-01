@@ -1,0 +1,22 @@
+@import "_variables";
+
+section.recent-posts{
+    background-color: $Light;
+}
+
+.recent-posts{
+    &__title{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 27px;
+        p{
+            font-size: 22px;
+            color: $Dark;
+        }
+        a{
+            color: $Secondary;
+            text-decoration: none;
+            line-height: normal;
+        }
+    }
+}

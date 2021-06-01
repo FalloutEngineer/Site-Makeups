@@ -1,0 +1,48 @@
+@import "_variables";
+
+.title{
+    font-weight: bold;
+    font-size: 44px;
+    font-family: $font-family;
+    line-height: 60 / 44 * 100%;
+    color: $Dark;
+}
+
+.text{
+    color: $Dark;
+    font-family: $font-family;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.button{
+    transition: background-color 0.3s ease 0s;
+    background-color: $Primary;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 29 / 20 * 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 2px;
+    font-family: $font-family;
+    font-size: 20px;
+    display: inline-flex;
+
+    @media (min-width: 992px) {
+        &:hover{
+            background-color: #d65353;
+        }
+    }
+    
+}
+
+.page{
+    margin-top: 90px;
+    @media (max-width: $md1) {
+        margin-top: 75px;
+    }
+}

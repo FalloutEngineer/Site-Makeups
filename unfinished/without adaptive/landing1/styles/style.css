@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 42px;
+}
+
+header{
+    background-color: #f6f2f2;
+    padding-top: 30px;
+    max-height: 690px;
+    min-height: 690px;
+}
+
+.wrapper{
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #313030;
+    height: 90px;
+}
+
+header ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+header ul li{
+    display: inline;
+}
+
+header ul li a{
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    border-radius: 1px;
+    border-color: black;
+    height: 90px;
+    line-height:90px;
+    color: white;
+}
+
+header ul li a:hover{
+    background-color: #ff3f40;
+}
+
+.our-org h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 65px;
+    margin-top: 100px;
+}
+
+.our-org .text span{
+    color: #313030;
+    max-width: 520px;
+    display: inline-block;
+    margin-top: 45px;
+    line-height: 29px;
+}
+
+.button{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff2d2d;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff2d2d;
+    max-width: 221px;
+    min-height: 55px;
+    text-align: center;
+    line-height: 55px;
+    margin-top: 65px;
+}
+
+.button:hover{
+    background-color: transparent;
+    color: #ff2d2d;
+}
+
+.our-org .text{
+    display: inline-block;
+}
+
+.our-org .video{
+    display: flex;
+    height: 360px;
+    width: 550px;
+    background-color: #c4c0b1;
+    top:0;
+    margin-top: 100px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.block{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.our-org .video img{
+    max-width: 100%;
+    display: block;
+    justify-self: center;
+}
+
+.our-org{
+    display: flex;
+    justify-content: space-between;
+}
+
+.do-you-know{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 695px;
+}
+
+.do-you-know span{
+    display: block;
+}
+
+.do-you-know h2{
+    display: block;
+}
+
+.do-you-know .text span{
+    display: inline-block;
+    margin-top: 45px;
+    line-height: 29px;
+}
+.do-you-know .text{
+    display: inline-block;
+    max-width: 520px;
+}
+.do-you-know .services{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 610px;
+    min-width: 610px;
+}
+
+.break{
+    flex-basis: 100%;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.services{
+    max-height: 560px;
+}
+
+.service{
+    min-width: 280px;
+    max-width: 280px;
+    width: 50%;
+    max-height: 210px;
+    padding-right: 25px;
+}
+
+.service h4{
+    margin-top: 30px;
+}
+
+.service span{
+    margin-top: 25px;
+}
+
+hr{
+    color: #ececec;
+    background-color: #ececec;
+    height: 2px;
+    border: hidden;
+}
+
+.our-future{
+    min-height: 1100px;
+}
+
+.featured{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.featured span{
+    max-width: 500px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 35px;
+    line-height: 27px;
+}
+
+.featured ul{
+    list-style: none;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 895px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featured ul li{
+    display: inline-block;
+    font-size: 22px;
+}
+
+.featured ul li:hover{
+    color:red;
+    cursor: pointer;
+}
+
+.featured .container .img{
+    width: 300px;
+    height: 300px;
+    background-color: #f5f0dd;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+
+.featured .container{
+    margin-top: 65px;
+}
+
+.meet-our-team{
+    margin-top: 130px;
+}
+.meet-our-team span{
+    display: block;
+    max-width: 445px;
+    color: #4c4c4c;
+}
+
+.meet-our-team .person ul.social li{
+    display: inline-block;
+}
+
+.meet-our-team a{
+    text-decoration: none;
+    color: black;
+}
+
+.meet-our-team span{
+    margin-top: 40px;
+}
+
+.person .big-photo{
+    background-color: #f5f0dd;
+    width: 320px;
+    height: 460px;
+}
+
+.person{
+    display: flex;
+    margin-top: 70px;
+}
+
+.person .right-side{
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.person .right-side span{
+    margin-top: 20px;
+}
+
+.person .right-side ul{
+    margin-top: 40px;
+    font-size: 18px;
+    font-style: italic;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person .right-side ul li a:hover{
+    color: red;
+}
+
+.person .name{
+    font-size: 30px;
+}
+
+.previews{
+    display: flex;
+    width: 850px;
+    justify-content: space-between;
+}
+
+.previews .preview{
+    margin-top: auto;
+    width: 195px;
+    height: 195px;
+    background-color: #f5f0dd;
+    display: flex;
+    flex-direction: column;
+}
+
+.previews-container{
+    display: inline-block;
+    margin-top: auto;
+}
+
+.previews .preview .name{
+    margin-top: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: transparent;
+    font-size: 18px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.previews .preview:hover .name{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+#subscribe{
+    height: 515px;
+    background-color: #f5f0dd;
+    margin-top: 110px;
+    color: white;
+}
+
+#subscribe-button{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff2d2d;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff2d2d;
+    max-width: 221px;
+    min-height: 55px;
+    max-height: 55px;
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: center;
+    line-height: 55px;
+}
+
+#subscribe-button:hover{
+    background-color: transparent;
+    color: red;
+}
+
+#email-text{
+    height: 55px;
+    max-width: 485px;
+    min-width: 485px;
+    border-radius: 5px;
+    border:none;
+    padding-left: 40px;
+    margin-right: 20px;
+}
+
+.subscribe h2{
+    display: block;
+    padding-top: 130px;
+}
+
+.subscribe span{
+    display: block;
+    margin-top: 30px;
+}
+
+.subscribe form{
+    margin-top: 65px;
+    display: flex;
+}
+
+.subscribe input{
+    display: inline-block;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#get-in-touch{
+    height: 985px;
+}
+
+.get-in-touch{
+    margin-top: 100px;
+    display: block;
+    width: 100%;
+}
+
+.get-in-touch .left-side span{
+    margin-top: 55px;
+    max-width: 720px;
+    display: block;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.redHr{
+    background-color: red;
+    color: red;
+    border: hidden;
+    height: 3px;
+    width: 130px;
+    margin-top: 35px;
+}
+
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input{
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    border: hidden;
+    padding: 30px 30px 30px 30px;
+    font-size: 18px;
+    width: 290px;
+}
+
+.margin-r-25{
+    margin-right: 25px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+textarea.input{
+    width: 670px;
+    margin-top: 50px;
+    margin-right: 0px;
+    resize: none;
+}
+
+.form{
+    margin-top: 75px;
+    display: inline-block;
+    max-width: 735px;
+}
+
+.button.big{
+    min-width: 730px;
+}
+
+.contact-us{
+    background-color: #2d2d2d;
+    color: #d5d5d5;
+    display: inline-block;
+    position: absolute;
+    margin-top: 390px;
+    max-width: 575px;
+    width: 260px;
+    height: 160px;
+    right: 1px;
+    padding-left: 80px;
+    padding-right: 170px;
+    padding-top: 110px;
+}
+
+.get-in-touch .left-side{
+    display: inline-block;
+    margin-left: 160px;
+}
+
+.contact-us h4{
+    font-size: 18px;
+}
+
+footer{
+    background-color: #313030;
+    color: #d5d5d5;
+    height: 110px;
+}
+
+.footer{
+    display: flex;
+    width: inherit;
+    height: 110px;
+    justify-content: space-between  ;
+}
+
+.footer ul{
+    display: flex;
+    width: 185px;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-between;
+}
+
+footer span{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+footer ul li{
+    display: inline;
+}
